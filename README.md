@@ -22,3 +22,14 @@ Example configuration (config.yaml):
     help        Help about any command
     status      Display current branch and last update
 
+## TODO
+
+- [ ] Installation script (curl | bash ) style
+- [ ] Consider various setups (symlink vs no symlink)
+- [ ] Update dependencies as well (vendor)
+- [ ] Add symlink functionality
+- [ ] Add logs functionality
+- [ ] Add self-update functionality
+- [ ] Create changelog and version number (use semver)
+- [ ] Generate config command
+- [ ] Correct help message and 'took ...' message

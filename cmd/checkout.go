@@ -33,7 +33,7 @@ func checkout(repo lib.Repo, branch string, sm ysmrr.SpinnerManager) {
 	spinner := sm.AddSpinner(
 		lib.FmtMessage(
 			repo.Name,
-			"Initializing",
+			"Initialising",
 			branch,
 			"",
 			"",
@@ -64,7 +64,6 @@ func checkout(repo lib.Repo, branch string, sm ysmrr.SpinnerManager) {
 	lib.Status(repo, *r, spinner, "Complete")
 	spinner.Complete()
 }
-
 
 func init() {
 	rootCmd.AddCommand(checkoutCmd)
